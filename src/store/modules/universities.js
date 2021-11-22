@@ -22,7 +22,7 @@ const actions = {
     async searchUniversities({ commit }) {
         commit('SEARCH_UNIVERSITIES_PENDING')
         try {
-            const url = '/search?country=switzerland'
+            const url = '/search?name=middle'
             const response = await axios.get(url)
             commit('SEARCH_UNIVERSITIES_FULFILLED', response.data)
             return Promise.resolve(response)
