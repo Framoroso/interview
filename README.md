@@ -21,7 +21,7 @@ TODO
 - Prevent the GET request to be fired after each keyboard input.
 - Allow the page to select a country which will be added to the search.
 
-
+Extra: javascript initials method: https://jsfiddle.net/framoroso/1evqh7tu/353/
 
 ## Project setup
 ```
